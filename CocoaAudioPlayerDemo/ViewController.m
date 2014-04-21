@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "CocoaAudioPlayerView.h"
 
-@interface ViewController ()
+@interface ViewController () <CocoaAudioPlayerViewDelegate>
+
+@property (nonatomic, strong) IBOutlet CocoaAudioPlayerView *audioPlayer;
 
 @end
 
@@ -18,6 +21,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"audio1" ofType:@"mp3" inDirectory:@"content"];
+    self.audioPlayer.delegate = self;
+    [self.audioPlayer setUrl:[NSURL fileURLWithPath:path]];
+//    [self.audioPlayer play];
 }
 
 - (void)didReceiveMemoryWarning
@@ -25,5 +33,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(void)audioPlayerViewDidStartPlay
+{
+    NSLog(@"audioPlayerViewDidStartPlay");
+}
+
+-(void)audioPlayerViewDidFinishPlay
+{
+    NSLog(@"audioPlayerViewDidFinishPlay");
+}
+
 
 @end

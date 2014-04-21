@@ -16,6 +16,9 @@
 		858F507219056BFA0099846E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 858F507019056BFA0099846E /* Main.storyboard */; };
 		858F507519056BFA0099846E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 858F507419056BFA0099846E /* ViewController.m */; };
 		858F507719056BFA0099846E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858F507619056BFA0099846E /* Images.xcassets */; };
+		858F509619056D240099846E /* CocoaAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 858F509519056D240099846E /* CocoaAudioPlayer.m */; };
+		858F509B19056D9C0099846E /* CocoaAudioPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 858F509A19056D9C0099846E /* CocoaAudioPlayerView.m */; };
+		858F50A6190576CA0099846E /* content in Resources */ = {isa = PBXBuildFile; fileRef = 858F50A5190576CA0099846E /* content */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,14 @@
 		858F507419056BFA0099846E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		858F507619056BFA0099846E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		858F507D19056BFA0099846E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		858F509419056D240099846E /* CocoaAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAudioPlayer.h; sourceTree = "<group>"; };
+		858F509519056D240099846E /* CocoaAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaAudioPlayer.m; sourceTree = "<group>"; };
+		858F509719056D5F0099846E /* CocoaAudioPlayerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaAudioPlayerDelegate.h; sourceTree = "<group>"; };
+		858F509819056D770099846E /* CocoaAudioPlayerViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaAudioPlayerViewDelegate.h; sourceTree = "<group>"; };
+		858F509919056D9C0099846E /* CocoaAudioPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAudioPlayerView.h; sourceTree = "<group>"; };
+		858F509A19056D9C0099846E /* CocoaAudioPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaAudioPlayerView.m; sourceTree = "<group>"; };
+		858F50A2190574FB0099846E /* CocoaAudioPlayerViewState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAudioPlayerViewState.h; sourceTree = "<group>"; };
+		858F50A5190576CA0099846E /* content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = content; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +93,7 @@
 		858F506419056BFA0099846E /* CocoaAudioPlayerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				858F50A5190576CA0099846E /* content */,
 				858F506D19056BFA0099846E /* AppDelegate.h */,
 				858F506E19056BFA0099846E /* AppDelegate.m */,
 				858F507019056BFA0099846E /* Main.storyboard */,
@@ -107,6 +119,13 @@
 		858F509319056C8F0099846E /* CocoaAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				858F509719056D5F0099846E /* CocoaAudioPlayerDelegate.h */,
+				858F509419056D240099846E /* CocoaAudioPlayer.h */,
+				858F509519056D240099846E /* CocoaAudioPlayer.m */,
+				858F509819056D770099846E /* CocoaAudioPlayerViewDelegate.h */,
+				858F50A2190574FB0099846E /* CocoaAudioPlayerViewState.h */,
+				858F509919056D9C0099846E /* CocoaAudioPlayerView.h */,
+				858F509A19056D9C0099846E /* CocoaAudioPlayerView.m */,
 			);
 			path = CocoaAudioPlayer;
 			sourceTree = "<group>";
@@ -165,6 +184,7 @@
 			files = (
 				858F507719056BFA0099846E /* Images.xcassets in Resources */,
 				858F506919056BFA0099846E /* InfoPlist.strings in Resources */,
+				858F50A6190576CA0099846E /* content in Resources */,
 				858F507219056BFA0099846E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,7 +197,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				858F507519056BFA0099846E /* ViewController.m in Sources */,
+				858F509619056D240099846E /* CocoaAudioPlayer.m in Sources */,
 				858F506F19056BFA0099846E /* AppDelegate.m in Sources */,
+				858F509B19056D9C0099846E /* CocoaAudioPlayerView.m in Sources */,
 				858F506B19056BFA0099846E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
