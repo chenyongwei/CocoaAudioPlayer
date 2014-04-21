@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CEE851B1-7C17-4C4E-8866-40C8FECE04AA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CocoaAudioPlayerDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6237F680-8253-458E-BD0B-B942D215294C</key>
+		<string>https://github.com/chenyongwei/CocoaAudioPlayer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CocoaAudioPlayerDemo/CocoaAudioPlayerDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6237F680-8253-458E-BD0B-B942D215294C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chenyongwei/CocoaAudioPlayer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6237F680-8253-458E-BD0B-B942D215294C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6237F680-8253-458E-BD0B-B942D215294C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CocoaAudioPlayer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
