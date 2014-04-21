@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "858F505A19056BFA0099846E"
-               BuildableName = "CocoaAudioPlayerDemo.app"
+               BuildableName = "CocoaAudioPlayer.app"
                BlueprintName = "CocoaAudioPlayer"
                ReferencedContainer = "container:CocoaAudioPlayer.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "858F505A19056BFA0099846E"
-            BuildableName = "CocoaAudioPlayerDemo.app"
+            BuildableName = "CocoaAudioPlayer.app"
             BlueprintName = "CocoaAudioPlayer"
             ReferencedContainer = "container:CocoaAudioPlayer.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "858F505A19056BFA0099846E"
-            BuildableName = "CocoaAudioPlayerDemo.app"
+            BuildableName = "CocoaAudioPlayer.app"
             BlueprintName = "CocoaAudioPlayer"
             ReferencedContainer = "container:CocoaAudioPlayer.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "858F505A19056BFA0099846E"
-            BuildableName = "CocoaAudioPlayerDemo.app"
+            BuildableName = "CocoaAudioPlayer.app"
             BlueprintName = "CocoaAudioPlayer"
             ReferencedContainer = "container:CocoaAudioPlayer.xcodeproj">
          </BuildableReference>
