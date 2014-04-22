@@ -346,6 +346,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaAudioPlayerDemo/CocoaAudioPlayer-Prefix.pch";
 				INFOPLIST_FILE = "CocoaAudioPlayerDemo/CocoaAudioPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = CocoaAudioPlayer;
 				WRAPPER_EXTENSION = app;
 			};
@@ -360,6 +361,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaAudioPlayerDemo/CocoaAudioPlayer-Prefix.pch";
 				INFOPLIST_FILE = "CocoaAudioPlayerDemo/CocoaAudioPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = CocoaAudioPlayer;
 				WRAPPER_EXTENSION = app;
 			};

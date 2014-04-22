@@ -22,10 +22,11 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    self.audioPlayer.backgroundColor = [UIColor clearColor];
+    
     NSString *path = [[NSBundle mainBundle] pathForResource:@"audio1" ofType:@"mp3" inDirectory:@"content"];
     self.audioPlayer.delegate = self;
     [self.audioPlayer setUrl:[NSURL fileURLWithPath:path]];
-//    [self.audioPlayer play];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,15 +1,24 @@
 PODS:
-  - FontAwesome+iOS (0.0.1)
+  - FontAwesomeKit (2.1.5):
+    - FontAwesomeKit/Core
+    - FontAwesomeKit/FontAwesome
+    - FontAwesomeKit/FoundationIcons
+    - FontAwesomeKit/IonIcons
+    - FontAwesomeKit/Zocial
+  - FontAwesomeKit/Core (2.1.5)
+  - FontAwesomeKit/FontAwesome (2.1.5):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.1.5):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.1.5):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.1.5):
+    - FontAwesomeKit/Core
 
 DEPENDENCIES:
-  - FontAwesome+iOS (from `https://github.com/alexdrone/ios-fontawesome.git`, commit `e155ee06b27026e68d0f1afc304121fa16078a9b`)
-
-EXTERNAL SOURCES:
-  FontAwesome+iOS:
-    :commit: e155ee06b27026e68d0f1afc304121fa16078a9b
-    :git: https://github.com/alexdrone/ios-fontawesome.git
+  - FontAwesomeKit (~> 2.1.0)
 
 SPEC CHECKSUMS:
-  FontAwesome+iOS: 2aa702396e80d0f9a553a8110fc6de660ad2c8e3
+  FontAwesomeKit: 7d935e100337d503bdaefde2ea16be740b81ed13
 
-COCOAPODS: 0.32.1
+COCOAPODS: 0.29.0

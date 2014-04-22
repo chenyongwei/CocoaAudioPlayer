@@ -10,7 +10,7 @@
 #import "CocoaAudioPlayer.h"
 #import "CocoaAudioPlayerDelegate.h"
 #import "CocoaAudioPlayerViewState.h"
-#import "FAImageView.h"
+#import "FAKFontAwesome.h"
 
 @interface CocoaAudioPlayerView() <CocoaAudioPlayerDelegate>
 
@@ -86,24 +86,17 @@
     if (self.viewState == 0)
     {
         self.defaultButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
-        self.defaultButton.backgroundColor = [UIColor clearColor];
-//        [self.defaultButton setImage:[UIImage audioPlayerDefaultImage] forState:UIControlStateNormal];
-        
-        self.defaultButton.titleLabel.font = [UIFont fontWithName:kFontAwesomeFamilyName size:100];
-//        [self.defaultButton setTitle:[NSString fontAwesomeIconStringForIconIdentifier:@"fa-stop"] forState:UIControlStateNormal];
-        [self.defaultButton setTitle:[NSString fontAwesomeIconStringForEnum:FAPlay] forState:UIControlStateNormal];
-        [self.defaultButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        
-//        FAImageView *imageView = [[FAImageView alloc] initWithFrame:CGRectMake(0.f, 0.f, 200.f, 200.f)];
-//        imageView.image = nil;
-//        [imageView setDefaultIconIdentifier:@"fa-play"];
-//        [self.defaultButton addSubview:imageView];
-
+        FAKFontAwesome *playIcon = [FAKFontAwesome playIconWithSize:35];
+        [playIcon addAttribute:NSForegroundColorAttributeName value:[UIColor blackColor]];
+        UIImage *playIconImage = [playIcon imageWithSize:CGSizeMake(35, 35)];
+        [self.defaultButton setImage:playIconImage forState:UIControlStateNormal];
         [self addSubview:self.defaultButton];
         
         self.playingButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
-        self.playingButton.backgroundColor = [UIColor clearColor];
-//        [self.playingButton setImage:[UIImage audioPlayerPlayingImage] forState:UIControlStateNormal];
+        FAKFontAwesome *stopIcon = [FAKFontAwesome pauseIconWithSize:35];
+        [stopIcon addAttribute:NSForegroundColorAttributeName value:[UIColor blackColor]];
+        UIImage *stopIconImage = [stopIcon imageWithSize:CGSizeMake(35, 35)];
+        [self.playingButton setImage:stopIconImage forState:UIControlStateNormal];
         [self addSubview:self.playingButton];
     }
     
